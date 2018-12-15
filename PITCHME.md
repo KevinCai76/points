@@ -1,4 +1,6 @@
-> About GitPitch
+> Show me your point
+
+# GitPitch
 * what is GitPitch
 * show me
 
