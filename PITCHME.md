@@ -2,8 +2,7 @@
 
 # GitPitch
 * what is GitPitch
-* show me
-
+* [show me](https://gitpitch.com/KevinCai76/points)
 ---
 # How to Use
 * great!
