@@ -31,3 +31,8 @@
 其实大家只需要把这个当成讲你写的markdown格式的文件变成一个幻灯片，直接可以网页浏览，可分享，可导出，并且还挺漂亮的。大家在做一些内部分享的时候，可以使用！
 
 ---
+
+## DEMO
+
+ * [Show Me](https://gitpitch.com/gitpitch/the-template#/)
+ * [See Code](https://github.com/gitpitch/the-template)
