@@ -34,5 +34,5 @@
 
 ## DEMO
 
- * [Show Me](https://gitpitch.com/gitpitch/the-template#/)
- * [See Code](https://github.com/gitpitch/the-template)
+ - [Show Me](https://gitpitch.com/gitpitch/the-template#/)
+ - [See Code](https://github.com/gitpitch/the-template)
