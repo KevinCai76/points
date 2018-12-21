@@ -21,9 +21,9 @@
 * 携程框架部门开源的统一应用配置中心
 * 支持4个维度管理配置（Key-Value）
      * application (应用)
-    * environment (环境)
-    * cluster (集群)
-    * namespace (命名空间)
+     * environment (环境)
+     * cluster (集群)
+     * namespace (命名空间)
 
 ---
 
