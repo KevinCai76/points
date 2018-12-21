@@ -1,38 +1,62 @@
-> Show me your point
+> 让系统活起来
+# Apollo
+
+---
+1.1 背景
+随着程序功能的日益复杂，程序的配置日益增多：各种功能的开关、参数的配置、服务器的地址……
+
+对程序配置的期望值也越来越高：配置修改后实时生效，灰度发布，分环境、分集群管理配置，完善的权限、审核机制……
+
+在这样的大环境下，传统的通过配置文件、数据库等方式已经越来越无法满足开发人员对配置管理的需求。
+
+Apollo配置中心应运而生！
+---
+
+
+> What is Apollo
+
+* 携程框架部门开源的统一应用配置中心
+* 支持4个维度管理配置（Key-Value）
+    * application (应用)
+    * environment (环境)
+    * cluster (集群)
+    * namespace (命名空间)
+
+---
+
+> What is Configuration
+
+- 配置是独立于程序的只读变量
+  - DB Connection Str、Thread Pool Size、Buffer Size、Request
+Timeout、Feature Switch、Server Urls等
+- 配置伴随应用的整个生命周期
+    - 启动时读取配置，运行时根据配置调整行为
+- 配置可以有多种加载方式
+    - 程序内部hard code，配置文件，环境变量，启动参数，基于数据库等
+- 配置需要治理
+    - 权限控制、发布审核
+    - 不同环境、集群配置管理
+
+---
+
+> 总体设计
+
+![总体设计](https://github.com/KevinCai76/points/blob/master/Images/overall-architecture.png?raw=true)
+
++++
+
+>  客户端设计
+
+![客户端设计](https://github.com/KevinCai76/points/blob/master/Images/client-architecture.png?raw=true)
 
 # GitPitch
 * what is GitPitch
 * [show me](https://gitpitch.com/KevinCai76/points)
 ---
-# How to Use
-* great!
-
-+++
-
-> 积小流 成江河 积跬步 致千里
-
-
-# GitPitch
-
-这个东东也是今天看到的，以前给同事做分享的，一般会用gitbook或者wiki，当然啦，肯定实现markdown写好东西上传的喽。这里安利一下markdown 学会它，就可以抛弃word了 排版什么的太口怕了。markdown语法其实很简单，用超级简单也不为过的了。
-
+ 
 ---
 
-
-
-## 直达
-
-[本人这篇文档的幻灯片版 大家可以直接点开看怎么用 和效果哦](https://gitpitch.com/jddjj/share/master?grs=github&t=moon)
-
----
-
-## 正文
-
-其实大家只需要把这个当成讲你写的markdown格式的文件变成一个幻灯片，直接可以网页浏览，可分享，可导出，并且还挺漂亮的。大家在做一些内部分享的时候，可以使用！
-
----
-
-## DEMO
+## 更多演示
 
  - [Show Me](https://gitpitch.com/gitpitch/the-template#/)
  - [See Code](https://github.com/gitpitch/the-template)
