@@ -48,6 +48,7 @@ Timeout、Feature Switch、Server Urls等
 ---
 
 > 总体设计
++++
 
 ![总体设计](https://github.com/KevinCai76/points/blob/master/Images/overall-architecture.png?raw=true)
 
